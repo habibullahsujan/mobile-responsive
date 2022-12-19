@@ -6,7 +6,7 @@ const SingleChat = ({ dt }) => {
   const [modal, setModal]=useState(false)
   return (
     <>
-      <div className="border-2 border-white rounded-lg my-5 p-3 flex justify-between items-center">
+      <div className="border-2 border-white rounded-lg my-5 p-3 flex flex-col gap-3 lg:flex-row  justify-between items-center">
         <FaEnvelopeOpen className="h-8 w-8" />
         <div>
           <h3 className="block">{dt?.name}</h3>

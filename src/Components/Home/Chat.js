@@ -5,7 +5,7 @@ const Chat = () => {
   
   return (
     <>
-    <div className="border-2 border-white rounded-lg my-5 p-3 flex justify-between items-center">
+    <div className="border-2 border-white rounded-lg my-5 p-3 flex flex-col lg:flex-row gap-3 justify-between items-center">
       <FaEnvelope className="h-8 w-8" />
       <h3>Critique your running form 🏃</h3>
       <button className="bg-white font-semibold px-4 py-1 text-black rounded-lg">

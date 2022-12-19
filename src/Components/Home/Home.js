@@ -42,16 +42,16 @@ const Home = () => {
             <span>J Johnson Jr</span>
             <FaCheckCircle className="text-blue-500" />
           </h3>
-          <h3 className="flex items-center">
+          <h3 className="lg:flex items-center text-center">
             <span>Created by different elements </span>
             <FaCentos className="text-blue-500" />
             Athlete and CEO
           </h3>
-          <span className="flex items-center gap1">
+          <span className="flex items-center">
             <FaMapMarkerAlt />
             Raleigh, NC
           </span>
-          <div className="flex gap-2 flex-row flex-wrap lg:flex-nowrap my-5">
+          <div className="flex gap-2 flex-row flex-wrap lg:flex-nowrap my-5 justify-center">
             <button className="border-2 border-white p-4 rounded-full transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
               <FaEnvelopeOpen />
             </button>
