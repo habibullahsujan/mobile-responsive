@@ -18,7 +18,7 @@ const Chats = () => {
   ];
   return <div>
     {
-        data.map(dt=><SingleChat dt={dt}/>)
+        data.map(dt=><SingleChat dt={dt} key={dt?.id}/>)
     }
   </div>;
 };

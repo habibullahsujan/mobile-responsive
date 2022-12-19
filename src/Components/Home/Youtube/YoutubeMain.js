@@ -16,7 +16,7 @@ const YoutubeMain = () => {
   ];
   return <div>
   {
-    data.map(dt=><YoutubeComponent dt={dt}/>)
+    data.map(dt=><YoutubeComponent dt={dt} key={dt?.id}/>)
   }
   </div>;
 };

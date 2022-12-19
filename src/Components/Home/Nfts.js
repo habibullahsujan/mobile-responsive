@@ -31,7 +31,7 @@ const Nfts = () => {
   return <div>
     <h3 className="text-center text-bold font-lg my-5">NFT,s</h3>
     {
-        nfts.map(nft=><Card card={nft}/>)
+        nfts.map(nft=><Card card={nft} key={nft.cardNo}/>)
     }
   </div>;
 };

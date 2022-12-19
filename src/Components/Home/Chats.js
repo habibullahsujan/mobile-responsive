@@ -20,7 +20,7 @@ const Chats = () => {
   ];
   return <div>
     {
-        data.map(dt=><Chat dt={dt}/>)
+        data.map(dt=><Chat dt={dt} key={dt.id}/>)
     }
   </div>;
 };
